@@ -1,0 +1,45 @@
+{
+  "ProjectName": "newtutor",
+  "ProjectGuid": "66f61f81-99c0-452f-a470-2f5eee929819",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.newtutor",
+  "DisplayName": "newtutor",
+  "Author": "",
+  "Description": "newtutor",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "6.4.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{036f0582-a32e-4e50-bc69-9939c800fbf9}",
+  "WP8ProductID": "{c66129ab-c6af-4145-918c-df1cf65bf9c5}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.newtutor",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
