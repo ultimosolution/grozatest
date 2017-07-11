@@ -5,6 +5,20 @@
     "qrCodeScan": "Scan"
   },
   "home": {
-    "title": "Home View"
+    "title": "Home View",
+    "homeModel": {
+      "detailHeaderFieldValue": "Detail",
+      "editableListForm1": {
+        "username": {
+          "title": "Heading"
+        },
+        "name": {
+          "title": "Name"
+        },
+        "password": {
+          "title": "Password"
+        }
+      }
+    }
   }
 }

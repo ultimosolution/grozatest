@@ -4,13 +4,85 @@
     {
       "type": "kendo-ui-mobile:view",
       "name": "home",
-      "components": [],
+      "components": [
+        {
+          "type": "kendo-ui-mobile:editableList",
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "username",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Heading",
+                  "inputType": "heading",
+                  "headingSize": "h1",
+                  "dataBindingOptional": "Username"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "name",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Name",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "dataBindingOptional": "Name"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "password",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Password",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "dataBindingOptional": "Password"
+                }
+              ],
+              "name": "editableListForm1",
+              "formType": "detail"
+            }
+          ],
+          "name": "homeModel",
+          "dataProvider": "jsonProvider",
+          "collection": "",
+          "headerField": "Username",
+          "addItemForm": false,
+          "editItemForm": false,
+          "deleteItemButton": false,
+          "listLayout": "multiline",
+          "subHeaderField": "Name",
+          "hasSeparator": false,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "isMapView": false,
+          "serverSideSorting": false,
+          "serverSidePaging": false,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "Text"
+        }
+      ],
       "title": "Home View",
       "addToNavigation": true,
       "icon": "home"
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "jsonProvider",
+      "source": "json",
+      "url": "http://ultimosolution.com/Mobile.ashx",
+      "title": "JSON Data Service"
+    }
+  ],
   "name": "kendoUiMobileApp",
   "navigation": "tabstrip",
   "view": "home",
